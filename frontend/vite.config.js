@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  server: { proxy: { '/api': 'http://localhost:8080' } } // same-origin cookies, no CORS setup
+  server: { proxy: { '/api': 'https://skillquest-r8ef.onrender.com/' } } // same-origin cookies, no CORS setup
 });
